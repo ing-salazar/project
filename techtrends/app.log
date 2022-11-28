@@ -1,0 +1,71 @@
+2022-11-27 23:09:16,417  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-11-27 23:09:16,417  * Running on http://10.0.2.15:3111/ (Press CTRL+C to quit)
+2022-11-27 23:09:19,260 127.0.0.1 - - [27/Nov/2022 23:09:19] "GET / HTTP/1.1" 200 -
+2022-11-27 23:09:19,526 127.0.0.1 - - [27/Nov/2022 23:09:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:09:30,007 127.0.0.1 - - [27/Nov/2022 23:09:30] "GET /healthz HTTP/1.1" 200 -
+2022-11-27 23:09:38,572 127.0.0.1 - - [27/Nov/2022 23:09:38] "GET /metrics HTTP/1.1" 200 -
+2022-11-27 23:09:57,926 127.0.0.1 - - [27/Nov/2022 23:09:57] "GET / HTTP/1.1" 200 -
+2022-11-27 23:09:58,305 127.0.0.1 - - [27/Nov/2022 23:09:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:05,553 Article 2020 CNCF Annual Report retrieved!
+2022-11-27 23:10:05,561 127.0.0.1 - - [27/Nov/2022 23:10:05] "GET /1 HTTP/1.1" 200 -
+2022-11-27 23:10:05,763 127.0.0.1 - - [27/Nov/2022 23:10:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:11,124 Article KubeCon + CloudNativeCon 2021 retrieved!
+2022-11-27 23:10:11,125 127.0.0.1 - - [27/Nov/2022 23:10:11] "GET /2 HTTP/1.1" 200 -
+2022-11-27 23:10:11,311 127.0.0.1 - - [27/Nov/2022 23:10:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:18,341 Article Kubernetes v1.20 Release Notes retrieved!
+2022-11-27 23:10:18,342 127.0.0.1 - - [27/Nov/2022 23:10:18] "GET /3 HTTP/1.1" 200 -
+2022-11-27 23:10:18,564 127.0.0.1 - - [27/Nov/2022 23:10:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:23,283 Article CNCF Cloud Native Interactive Landscape retrieved!
+2022-11-27 23:10:23,284 127.0.0.1 - - [27/Nov/2022 23:10:23] "GET /4 HTTP/1.1" 200 -
+2022-11-27 23:10:23,465 127.0.0.1 - - [27/Nov/2022 23:10:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:29,655 Article CNCF Cloud Native Definition v1.0 retrieved!
+2022-11-27 23:10:29,657 127.0.0.1 - - [27/Nov/2022 23:10:29] "GET /5 HTTP/1.1" 200 -
+2022-11-27 23:10:29,962 127.0.0.1 - - [27/Nov/2022 23:10:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:39,454 Article Kubernetes Certification retrieved!
+2022-11-27 23:10:39,456 127.0.0.1 - - [27/Nov/2022 23:10:39] "GET /6 HTTP/1.1" 200 -
+2022-11-27 23:10:39,641 127.0.0.1 - - [27/Nov/2022 23:10:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:44,967 Article Test Post retrieved!
+2022-11-27 23:10:44,972 127.0.0.1 - - [27/Nov/2022 23:10:44] "GET /7 HTTP/1.1" 200 -
+2022-11-27 23:10:45,881 127.0.0.1 - - [27/Nov/2022 23:10:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:51,327 Article Cloud Native Fundations Project retrieved!
+2022-11-27 23:10:51,335 127.0.0.1 - - [27/Nov/2022 23:10:51] "GET /8 HTTP/1.1" 200 -
+2022-11-27 23:10:51,688 127.0.0.1 - - [27/Nov/2022 23:10:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:10:56,899 Article Application Logging retrieved!
+2022-11-27 23:10:56,904 127.0.0.1 - - [27/Nov/2022 23:10:56] "GET /9 HTTP/1.1" 200 -
+2022-11-27 23:10:57,739 127.0.0.1 - - [27/Nov/2022 23:10:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:11:18,627 Article Docker for Application Packaging retrieved!
+2022-11-27 23:11:18,631 127.0.0.1 - - [27/Nov/2022 23:11:18] "GET /10 HTTP/1.1" 200 -
+2022-11-27 23:11:19,396 127.0.0.1 - - [27/Nov/2022 23:11:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:11:26,511 Article Docker image retrieved!
+2022-11-27 23:11:26,513 127.0.0.1 - - [27/Nov/2022 23:11:26] "GET /11 HTTP/1.1" 200 -
+2022-11-27 23:11:26,820 127.0.0.1 - - [27/Nov/2022 23:11:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:11:31,855 Non-existing article retrieved!
+2022-11-27 23:11:31,859 127.0.0.1 - - [27/Nov/2022 23:11:31] "[33mGET /12 HTTP/1.1[0m" 404 -
+2022-11-27 23:11:32,178 127.0.0.1 - - [27/Nov/2022 23:11:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:12:11,564 127.0.0.1 - - [27/Nov/2022 23:12:11] "GET /create HTTP/1.1" 200 -
+2022-11-27 23:12:11,749 127.0.0.1 - - [27/Nov/2022 23:12:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:13:03,933 A new Marlene Castellanos article was created
+2022-11-27 23:13:03,935 127.0.0.1 - - [27/Nov/2022 23:13:03] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-11-27 23:13:03,958 127.0.0.1 - - [27/Nov/2022 23:13:03] "GET / HTTP/1.1" 200 -
+2022-11-27 23:13:04,144 127.0.0.1 - - [27/Nov/2022 23:13:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:13:08,454 Article Marlene Castellanos retrieved!
+2022-11-27 23:13:08,455 127.0.0.1 - - [27/Nov/2022 23:13:08] "GET /12 HTTP/1.1" 200 -
+2022-11-27 23:13:08,585 127.0.0.1 - - [27/Nov/2022 23:13:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:13:42,019 127.0.0.1 - - [27/Nov/2022 23:13:42] "GET /metrics HTTP/1.1" 200 -
+2022-11-27 23:13:50,111 127.0.0.1 - - [27/Nov/2022 23:13:50] "GET /metrics HTTP/1.1" 200 -
+2022-11-27 23:21:14,125  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-11-27 23:21:14,125  * Running on http://10.0.2.15:3111/ (Press CTRL+C to quit)
+2022-11-27 23:21:17,181 127.0.0.1 - - [27/Nov/2022 23:21:17] "GET /metrics HTTP/1.1" 200 -
+2022-11-27 23:21:26,581 About Us page was retrieved
+2022-11-27 23:21:26,606 127.0.0.1 - - [27/Nov/2022 23:21:26] "GET /about HTTP/1.1" 200 -
+2022-11-27 23:21:26,866 127.0.0.1 - - [27/Nov/2022 23:21:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:21:28,571 127.0.0.1 - - [27/Nov/2022 23:21:28] "GET /create HTTP/1.1" 200 -
+2022-11-27 23:21:28,692 127.0.0.1 - - [27/Nov/2022 23:21:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:21:30,005 About Us page was retrieved
+2022-11-27 23:21:30,006 127.0.0.1 - - [27/Nov/2022 23:21:30] "GET /about HTTP/1.1" 200 -
+2022-11-27 23:21:30,202 127.0.0.1 - - [27/Nov/2022 23:21:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-11-27 23:21:35,148 Article KubeCon + CloudNativeCon 2021 retrieved!
+2022-11-27 23:21:35,161 127.0.0.1 - - [27/Nov/2022 23:21:35] "GET /2 HTTP/1.1" 200 -
+2022-11-27 23:21:35,422 127.0.0.1 - - [27/Nov/2022 23:21:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
