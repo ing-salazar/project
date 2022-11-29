@@ -5,11 +5,6 @@ metadata:
   namespace: sandbox
 spec:
   replicas: 1
-  strategy:
-    rollingUpdate:
-      maxSurge: 25%
-      maxUnavailable: 25%
-    type: RollingUpdate
     spec:
       containers:
       - image: salazarr/techtrends:latest
