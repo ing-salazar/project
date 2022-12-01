@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: 
+        app: python-helloworld
     spec:
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
