@@ -16,7 +16,6 @@ spec:
       maxUnavailable: 25%
     type: RollingUpdate
   template:
-    metadata:
     spec:
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
