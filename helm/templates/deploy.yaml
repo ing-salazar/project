@@ -8,7 +8,7 @@ metadata:
   name: techtrends
   namespace: {{ .Values.namespace.name }}
 spec:
-  replicas: {{ .Values.replicaCount }}
+  replicas: 1
   selector:
     matchLabels:
       app: techtrends
@@ -25,24 +25,24 @@ spec:
         tag: latest
     spec:
       containers:
-      - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
-        imagePullPolicy: {{ .Values.image.pullPolicy }}
+      - image: salazarr/techtrends 
+        imagePullPolicy: IfNotPresent
         name: techtrends
         ports:
-        - containerPort: {{ .Values.containerPort }}
-          protocol: {{ .Values.protocol }}
+        - containerPort: 3111
+          protocol: TCP
         livenessProbe:
            httpGet:
-             path: {{ .Values.livenessProbe.path }}
-             port: {{ .Values.containerPort }}
+             path: /healthz
+             port: 3111
         readinessProbe:
            httpGet:
-             path: {{ .Values.readinessProbe.path }}
-             port: {{ .Values.containerPort }}
+             path: /healthz
+             port: 3111
         resources:
           requests:
-            memory: {{ .Values.resources.request.memory }}
-            cpu: {{ .Values.resources.request.cpu }}
+            memory: 64Mi
+            cpu: 250m
           limits:
-            memory: {{ .Values.resources.limits.memory }}
-            cpu: {{ .Values.resources.limits.cpu }}
+            memory: 128Mi
+            cpu: 500m
