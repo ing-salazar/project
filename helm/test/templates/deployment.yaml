@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  #labels:
+    #app: python-helloworld
   name: python-helloworld
   namespace: {{ .Values.namespace.name }} 
 spec:
@@ -8,6 +10,11 @@ spec:
   selector:
     matchLabels:
       app: python-helloworld
+  #strategy:
+    #rollingUpdate:
+      #maxSurge: 25%
+      #maxUnavailable: 25%
+    #type: RollingUpdate
   template:
     metadata:
       labels:
