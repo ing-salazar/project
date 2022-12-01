@@ -7,3 +7,8 @@ image:
   pullPolicy: IfNotPresent
 
 replicaCount: 1
+
+livenessProbe:
+  path: /healthz
+readinessProbe:
+  path: /healthz
