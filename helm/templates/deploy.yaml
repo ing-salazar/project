@@ -29,15 +29,15 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         name: techtrends
         ports:
-        - containerPort: {{ .Values.containerPort }}
+        - containerPort: 3111
           protocol: TCP
         livenessProbe:
            httpGet:
-             path: /healthz
+             path: {{ .Values.livenessProbe.path }}
              port: 3111
         readinessProbe:
            httpGet:
-             path: /healthz
+             path: {{ .Values.readinessProbe.path }}
              port: 3111
         resources:
           requests:
