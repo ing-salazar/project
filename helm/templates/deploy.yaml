@@ -4,6 +4,7 @@ metadata:
   annotations:
   labels:
     app: techtrends
+    tag: latest
   name: techtrends
   namespace: {{ .Values.namespace.name }}
 spec:
