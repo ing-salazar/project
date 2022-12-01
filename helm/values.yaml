@@ -1,2 +1,9 @@
 namespace:
   name: sandbox
+  
+image:
+  repository: salazarr/techtrends 
+  tag: latest
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
