@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
-  labels:
-    app: techtrends
+  #annotations:
+  #labels:
+    #app: techtrends
   name: techtrends
   namespace: {{ .Values.namespace.name }}
 spec:
@@ -11,11 +11,11 @@ spec:
   selector:
     matchLabels:
       app: techtrends
-  strategy:
-    rollingUpdate:
-      maxSurge: 25%
-      maxUnavailable: 25%
-    type: RollingUpdate
+  #strategy:
+    #rollingUpdate:
+      #maxSurge: 25%
+      #maxUnavailable: 25%
+    #type: RollingUpdate
   template:
     metadata:
       labels:
