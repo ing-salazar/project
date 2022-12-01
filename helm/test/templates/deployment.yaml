@@ -6,12 +6,12 @@ metadata:
   name: python-helloworld
   namespace: {{ .Values.namespace.name }} 
 spec:
-  replicas: {{ .Values.replicaCount }}
+  replicas: {{ .Values.replicaCount }} 
   selector:
     matchLabels:
       app: python-helloworld
   strategy:
-      rollingUpdate:
+    rollingUpdate:
       maxSurge: 25%
       maxUnavailable: 25%
     type: RollingUpdate
