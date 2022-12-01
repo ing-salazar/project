@@ -1,9 +1,6 @@
 namespace:
   name: sandbox
   
-service:
-  protocol: TCP
-  
 image:
   repository: salazarr/techtrends 
   tag: latest
