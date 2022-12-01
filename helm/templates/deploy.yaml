@@ -1,9 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  #annotations:
-  #labels:
-    #app: techtrends
+  annotations:
+  labels:
+    app: techtrends
+    tag: latest
   name: techtrends
   namespace: {{ .Values.namespace.name }}
 spec:
@@ -11,6 +12,7 @@ spec:
   selector:
     matchLabels:
       app: techtrends
+      tag: latest
   #strategy:
     #rollingUpdate:
       #maxSurge: 25%
@@ -20,6 +22,7 @@ spec:
     metadata:
       labels:
         app: techtrends
+        tag: latest
     spec:
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
