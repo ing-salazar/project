@@ -11,6 +11,7 @@ spec:
   selector:
     matchLabels:
       app: techtrends
+      tag: latest
   strategy:
     rollingUpdate:
       maxSurge: 25%
