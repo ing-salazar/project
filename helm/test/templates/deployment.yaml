@@ -8,6 +8,8 @@ metadata:
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
+    matchLabels:
+      app: python-helloworld
   template:
     metadata:
     spec:
