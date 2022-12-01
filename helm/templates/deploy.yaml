@@ -44,5 +44,5 @@ spec:
             memory: 64Mi
             cpu: 250m
           limits:
-            memory: 64Mi
-            cpu: 500m
+            memory: {{ .Values.resources.limits.memory }}
+            cpu: {{ .Values.resources.limits.cpu }}
