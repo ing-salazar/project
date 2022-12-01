@@ -11,7 +11,6 @@ spec:
   selector:
     matchLabels:
       app: techtrends
-      tag: latest
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -29,7 +28,7 @@ spec:
         name: techtrends
         ports:
         - containerPort: {{ .Values.containerPort }}
-          protocol: TCP
+          protocol: {{ .Values.protocol }}
         livenessProbe:
            httpGet:
              path: {{ .Values.livenessProbe.path }}
